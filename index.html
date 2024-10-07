@@ -24,15 +24,19 @@
     
     <body class="main_body">
 
-      <div id="name" class="manrope-name"><h1>Dalton Simonson</h1></div>
+      <div id="name" class="manrope-name">
+        <h1>
+          <a class="link" href="https://dalton-simonson.github.io/Portfolio/">Dalton Simonson</a>
+        </h1>
+      </div>
 
       <div id="picture_and_intro_div">
        
-        <img src="Images/heartbeats.png" alt="original_img" id="original_img" class="card_image">
+        <img src="Images/heartbeats.png" alt="Home page image" id="original_img" class="card_image">
 
 
         <div id="introduction_text">
-            <h2 class="montserrat-section-text" id="main_intro">HeartBeats</h2>
+            <h2 class="montserrat-section-text" alt ="Project title text" id="main_intro">HeartBeats</h2>
             <h3 class="karla-regular" id="main_intro_sub_text">
               <a class="link" href="https://heartbeatsapp.netlify.app/">HeartBeats</a> is the result of the <a class="link" href="https://www.linkedin.com/company/bstarfellowship/">B* Fellowship</a> over the summer of 2023.
                 HeartBeats is a workout playlist generator powered by the spotify API.
@@ -52,13 +56,13 @@
 
           <div class="picture_and_text_div">
        
-            <img src="Images/spotify_auth.png"  id="recommendation_img" class="card_image main_content_image">
+            <img src="Images/spotify_auth.png"  alt="Spotify authorization/permissions agree form" id="recommendation_img" class="card_image main_content_image">
     
             <div id="introduction_text">
               <h2 class="montserrat-section-text" id="main_intro">Spotify Auth</h2>
                 <h3 class="karla-regular" id="main_intro_sub_text">
                   A user clicks the login button on the main screen and is redirected to Spotify's authorization process.
-                  By authorizing HeartBeats to connect to their Spotify profile, the user gives the app access to their playlists, liked songs, and other meta data to best tailor a playlist to their liking.
+                  By authorizing HeartBeats to connect to their Spotify profile, the user gives the app access to their playlists, liked songs, and other metadata to best tailor a playlist to their liking.
                   
                 </h3>
             </div>
@@ -67,12 +71,12 @@
 
         <div class="picture_and_text_div">
        
-          <img src="Images/playlist_types.png"  id="playlist_types_img" class="card_image main_content_image">
+          <img src="Images/playlist_types.png"  alt="Playlist type selection" id="playlist_types_img" class="card_image main_content_image">
   
           <div id="introduction_text">
             <h2 class="montserrat-section-text" id="main_intro">Playlist Types</h2>
               <h3 class="karla-regular" id="main_intro_sub_text">
-                A user can select what type of playlsit they want for their workout. 
+                A user can select what type of playlist they want for their workout. 
                 Each playlist has a unique method of mapping heart rate to song BPM for different types of workouts.
                 For example the standard playlist has a warm up and cooldown period that arranges songs in ascending and descending BPM around a target heart rate. 
                  
@@ -83,7 +87,7 @@
 
       <div class="picture_and_text_div">
        
-        <img src="Images/playlist_options_1.png"  id="recommendation_img" class="card_image main_content_image">
+        <img src="Images/playlist_options_1.png" alt="Imputting playlist intensity, user age, and playlist duration" id="recommendation_img" class="card_image main_content_image">
 
         <div id="introduction_text">
           <h2 class="montserrat-section-text" id="main_intro">User Specific Options</h2>
@@ -97,12 +101,12 @@
 
     <div class="picture_and_text_div">
        
-        <img src="Images/playlist_options_2.png"  id="playlist_options_2" class="card_image main_content_image">
+        <img src="Images/playlist_options_2.png"  alt="Selcting genres to base playlsit from, and if the user wants to use their liked songs" id="playlist_options_2" class="card_image main_content_image">
 
         <div id="introduction_text">
           <h2 class="montserrat-section-text" id="main_intro">Personalization</h2>
             <h3 class="karla-regular" id="main_intro_sub_text">
-              Finally, the user can select either to have the app generate their playlist based off their liked songs, or songs we think they will like in a selection of up to three different genres.
+              Finally, the user can select either to have the app generate their playlist based on their liked songs, or songs we think they will like in a selection of up to three different genres.
             </h3>
         </div>
     </div>
@@ -117,14 +121,14 @@
       <div id="introduction_text">
         <h2 class="montserrat-section-text" id="main_intro_playlist_created">Playlist Created</h2>
           <h3 class="karla-regular" id="main_intro_sub_text">
-            After a few seconds wait their playlist is generated. 
+            After a few seconds, their playlist is generated. 
             The app also creates the playlist in the user's Spotify account so users can generate a playlist on one device and see the changes immediately across all their devices.
             The playlist is timestamped and appropriately named so it can be easily located by users who have generated many playlists with the app.
           </h3>
       </div>
   </div>
 
-  <img src="Images/spotify_playlist.png"  id="playlist_options_2" class="card_image main_content_image">
+  <img src="Images/spotify_playlist.png"  alt="Completed playlist on the site" id="playlist_options_2" class="card_image main_content_image">
 
       
 
@@ -148,12 +152,12 @@
 
           <div class="picture_and_text_div">
        
-            <img src="Images/spotify_api_bpm.png"  id="recommendation_img" class="card_image main_content_image">
+            <img src="Images/spotify_api_bpm.png"  alt="Corresponding playlist in the spotify app" id="recommendation_img" class="card_image main_content_image">
     
             <div id="introduction_text">
                 <h3 class="karla-regular" id="main_intro_sub_text">
-                 Each song has tempo parameters which are then passed along into the aformentioned get recommendations endpoint. 
-                 This is the big tool that allows the app to curate songs around the desired BPM 
+                 Each song has tempo parameters which are then passed along into the aforementioned  get recommendations endpoint. 
+                 This is the big tool that allows the app to curate songs around the desired BPM.
                 </h3>
             </div>
           </div>
